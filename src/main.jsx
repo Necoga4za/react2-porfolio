@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'; // 라우터를 사용하기 �
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/rect-portfolio/"> 
+    <BrowserRouter basename="/react2-porfolio/"> 
       {/* 라우터로 앱을 감싸기 */}
       {/* basename에 Repository 경로를 추가 */}
       <App />

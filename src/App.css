@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+
+.main-content {
+  height: calc(100vh - 150px); /* 헤더와 네비게이션 높이를 제외한 값으로 조절하세요 */
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin-top: 1em;
+}
